@@ -995,7 +995,7 @@ Intelligent Lifestyle, Nutrition & Health-Risk Analysis
 
 <b>Designed & Developed by</b><br>
             
-Nikia Nishad 
+Nikita Nishad 
              
 B.Pharm Student & AI/ML Researcher <br>
 
