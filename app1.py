@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import plotly.graph_objects as go
+import time
 
 
 # =========================================================
@@ -413,6 +414,32 @@ analyze = st.button(
     type="primary",
     use_container_width=True
 )
+
+
+# =========================================================
+# STAGED LOADING SEQUENCE (NEW)
+# =========================================================
+
+if analyze:
+
+    loading_placeholder = st.empty()
+
+    stages = [
+        ("🔍 Analyzing lifestyle...", 2),
+        ("🧠 Running AI model...", 2),
+        ("📊 Generating personalized insights...", 2),
+        ("❤️ Finalizing result...", 1.5),
+    ]
+
+    for message, duration in stages:
+
+        with loading_placeholder.container():
+
+            with st.spinner(message):
+
+                time.sleep(duration)
+
+    loading_placeholder.empty()
 
 
 # =========================================================
