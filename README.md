@@ -5,8 +5,7 @@ AI-Powered Health Risk Analysis, Nutrition & Lifestyle Intelligence Platform
 An AI-powered health analytics platform that combines Machine Learning, nutrition analytics, lifestyle assessment, and explainable insights to estimate overall health-risk levels.
 
 Live Demo: 🚀 Try AI Health Companion
-
-⸻
+https://ai-health-companion-com.streamlit.app/
 
 📌 Overview
 
@@ -28,12 +27,12 @@ The application evaluates multiple factors such as:
 Based on these features, the system classifies users into three risk categories:
 
 🟢 Healthy
+
 🟡 Moderate Risk
+
 🔴 High Risk
 
 The goal is to demonstrate how Artificial Intelligence, Machine Learning, Nutrition Analytics, and Preventive Health Analytics can be combined into an interactive application.
-
-⸻
 
 🎯 Project Objectives
 
@@ -50,8 +49,6 @@ The main objectives of this project are:
 * Build an interactive and user-friendly dashboard.
 * Explore the intersection of Pharmacy + AI/ML + Preventive Health Analytics.
 
-⸻
-
 🚀 Key Features
 
 🤖 Machine Learning Risk Prediction
@@ -62,8 +59,6 @@ Risk Level	Description
 🟢 Healthy	Lower estimated lifestyle-related risk
 🟡 Moderate Risk	Some lifestyle factors may require improvement
 🔴 High Risk	Multiple risk-related factors detected
-
-⸻
 
 📊 Prediction Probability
 
@@ -76,8 +71,6 @@ Moderate Risk  → 21%
 High Risk      → 7%
 
 This provides more information than simply displaying a single predicted class.
-
-⸻
 
 🧮 Lifestyle Score
 
@@ -94,8 +87,6 @@ A customized lifestyle score evaluates important wellness dimensions such as:
 
 The score helps users understand their overall lifestyle quality.
 
-⸻
-
 🔍 Risk Factor Analysis
 
 The system identifies lifestyle and nutrition factors that may contribute to the estimated risk.
@@ -107,8 +98,6 @@ Potential Risk Factors
 • Insufficient sleep
 • Low fiber intake
 • Poor hydration
-
-⸻
 
 💡 Personalized Recommendations
 
@@ -123,8 +112,6 @@ Include more fiber-rich foods in your diet.
 
 Recommendations are educational and should not be interpreted as medical treatment.
 
-⸻
-
 📈 Interactive Visualizations
 
 The dashboard uses Plotly and Streamlit to display:
@@ -135,9 +122,7 @@ The dashboard uses Plotly and Streamlit to display:
 * Health indicators
 * Risk-factor summaries
 * Comparative visualizations
-
-⸻
-
+  
 🧠 Machine Learning Pipeline
 
                     USER INPUT
@@ -184,8 +169,6 @@ The dashboard uses Plotly and Streamlit to display:
               Personalized
               Recommendations
 
-⸻
-
 🤖 Machine Learning
 
 This project uses a supervised multi-class classification approach.
@@ -213,8 +196,6 @@ Random Forest was selected because it:
 * Performs well for tabular datasets.
 * Supports multi-class classification.
 
-⸻
-
 📊 Model Evaluation
 
 The model evaluation process includes:
@@ -237,8 +218,6 @@ Extra Trees	—	—	—	—
 HistGradientBoosting	—	—	—	—
 
 Replace the — values with the actual metrics generated during model evaluation. Do not use fabricated performance numbers.
-
-⸻
 
 🔬 Feature Engineering
 
@@ -274,8 +253,6 @@ Activity Assessment
 
 Physical activity is converted into analytical indicators used by the prediction system.
 
-⸻
-
 🧠 Explainable AI
 
 One of the major goals of this project is to make Machine Learning predictions easier to understand.
@@ -295,27 +272,17 @@ Important contributing factors:
 
 This approach helps users understand the relationship between their lifestyle inputs and the model’s output.
 
-⸻
-
 📱 Application Screens
 
 🏠 Health Assessment Dashboard
 
-⸻
-
 📊 Risk Prediction
 
-⸻
-
 📈 Analytics Dashboard
-
-⸻
 
 🧠 Architecture
 
 Add your actual screenshots inside the assets/ directory.
-
-⸻
 
 🛠️ Tech Stack
 
@@ -352,8 +319,6 @@ Development
 * VS Code
 * Git
 * GitHub
-
-⸻
 
 📂 Project Structure
 
@@ -393,42 +358,6 @@ AI-Health-Companion/
 └── tests/
     └── test_prediction.py
 
-⸻
-
-⚙️ Installation
-
-1. Clone the Repository
-
-git clone https://github.com/YOUR_USERNAME/AI-Health-Companion.git
-
-2. Navigate to the Project
-
-cd AI-Health-Companion
-
-3. Create a Virtual Environment
-
-Windows
-
-python -m venv venv
-venv\Scripts\activate
-
-macOS / Linux
-
-python3 -m venv venv
-source venv/bin/activate
-
-4. Install Dependencies
-
-pip install -r requirements.txt
-
-5. Run the Application
-
-streamlit run app.py
-
-The application will open in your browser.
-
-⸻
-
 📦 Requirements
 
 Example requirements.txt:
@@ -444,8 +373,6 @@ For reproducible environments, pin package versions after testing the applicatio
 
 pip freeze > requirements.txt
 
-⸻
-
 🌐 Deployment
 
 The application can be deployed using Streamlit Community Cloud.
@@ -459,8 +386,6 @@ Streamlit Cloud
 Live Web Application
 
 Add your deployed application URL above in the Live Demo section.
-
-⸻
 
 🔐 Data Privacy
 
@@ -478,8 +403,6 @@ For a production implementation, additional measures would be required, includin
 * Privacy compliance
 * Proper consent management
 
-⸻
-
 ⚠️ Medical Disclaimer
 
 AI Health Companion is an educational and research prototype.
@@ -495,8 +418,6 @@ It is:
 The predictions generated by the Machine Learning model may be inaccurate or affected by limitations in the dataset, feature design, and model performance.
 
 Users should consult qualified healthcare professionals for medical concerns, diagnosis, treatment, or medication-related decisions.
-
-⸻
 
 🎓 Academic Context
 
@@ -515,8 +436,6 @@ Preventive Health
 Data Science
 
 The project demonstrates how computational methods can be applied to analyze lifestyle and nutrition-related data in an educational environment.
-
-⸻
 
 🔮 Future Improvements
 
@@ -576,8 +495,6 @@ Future dashboard features:
 * CI/CD
 * Monitoring
 
-⸻
-
 🧪 Testing
 
 Testing can be implemented using:
@@ -598,8 +515,6 @@ Potential test cases include:
 * Risk classification
 * Recommendation generation
 
-⸻
-
 📌 Limitations
 
 The current version has several limitations:
@@ -610,8 +525,6 @@ The current version has several limitations:
 * The dataset may not represent all populations.
 * Correlation in the dataset does not necessarily imply causation.
 * Recommendations are educational rather than medical.
-
-⸻
 
 🚀 Roadmap
 
@@ -633,13 +546,11 @@ The current version has several limitations:
 [ ] CI/CD
 [ ] Production deployment
 
-⸻
-
 👨‍💻 Author
 
-Anshu Sahani
+Nikita Nishad
 
-B.Tech — Artificial Intelligence & Data Science
+B.Pharm Student & AI/ML Researcher
 
 Interested in:
 
@@ -650,21 +561,15 @@ Interested in:
 * Nutrition Intelligence
 * Explainable AI
 
-⸻
-
 ⭐ Support
 
 If you find this project useful or interesting, consider giving the repository a ⭐ on GitHub.
-
-⸻
 
 📄 License
 
 This project is licensed under the MIT License.
 
 See the LICENSE file for more information.
-
-⸻
 
 ⚕️ Final Note
 
