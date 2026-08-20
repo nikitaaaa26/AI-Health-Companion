@@ -134,28 +134,35 @@ st.markdown("""
 # =========================================================
 # LOAD MODEL
 # =========================================================
-
-from pathlib import Path
-
-
-MODEL_PATH = Path(__file__).resolve().parent / "health_risk_pipeline.pkl"
-
-st.write("Model path:", MODEL_PATH)
-st.write("Model exists:", MODEL_PATH.exists())
-
 @st.cache_resource
+
 def load_model():
-    return joblib.load(MODEL_PATH)
+
+    return joblib.load(
+
+        "health_risk_pipeline.pkl"
+
+    )
 
 try:
+
     model = load_model()
-    st.success("✅ Model loaded successfully!")
 
 except Exception as e:
-    st.error("❌ Exact model loading error:")
-    st.exception(e)
-    st.stop()
 
+    st.error(
+
+        "❌ Model file could not be loaded."
+
+    )
+
+    st.info(
+
+        "Make sure 'health_risk_pipeline.pkl' is in the same folder as app.py."
+
+    )
+
+    st.stop()
 
 # =========================================================
 # HERO
