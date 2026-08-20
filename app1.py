@@ -140,7 +140,7 @@ def load_model():
 
     return joblib.load(
 
-        "health_risk_pipeline.pkl"
+        "health_risk.pkl"
 
     )
 
@@ -158,7 +158,7 @@ except Exception as e:
 
     st.info(
 
-        "Make sure 'health_risk_pipeline.pkl' is in the same folder as app.py."
+        "Make sure 'health_risk.pkl' is in the same folder as app.py."
 
     )
 
